@@ -1,0 +1,19 @@
+Steps install Pentaho
+
+1 - Download http://sourceforge.net/projects/pentaho/
+
+2 - Unzip download.
+
+3 - Execute sudo ./spoon.sh
+
+Steps create repository using Mysql
+
+1 - Download mysql server
+  # apt-get install mysql-server
+2 - Download mysql client
+  # apt-get install mysql-client
+3 - Download lib mysql for java
+  # apt-get install libmysql-java
+4 - Download jdbc-mysql coneector
+  Download in Platform Independent (mysql-connector-java-5.1.29.tar.gz) http://dev.mysql.com/downloads/connector/j/
+5 - Copy las download for /data-integration/lib/
